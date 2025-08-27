@@ -2,6 +2,15 @@
 
 This repo is configured for PostgreSQL.
 
+# on codespace
+
+If error with java version...
+`sdk use java 17.0.15-ms`
+
+`mvn package`
+
+`docker compose up -d`
+
 ## Init DB
 ```sql
 CREATE DATABASE tinyinsta;
